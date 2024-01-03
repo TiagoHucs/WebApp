@@ -21,4 +21,10 @@ public class Usuario {
     @Column(name = "NOME")
     private String nome;
 
+    @Column(name = "USERNAME")
+    private String username;
+
+    @Column(name = "PASSWORD")
+    private String password;
+
 }
